@@ -1,0 +1,67 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "working_area.HelloWorld",
+            "projectName": "working_space_9e26c7bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavadocTest",
+            "request": "launch",
+            "mainClass": "working_area.JavadocTest",
+            "projectName": "working_space_9e26c7bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MulTable",
+            "request": "launch",
+            "mainClass": "working_area.MulTable",
+            "projectName": "working_space_9e26c7bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "working_area.hello",
+            "projectName": "working_space_9e26c7bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch num2rmb",
+            "request": "launch",
+            "mainClass": "working_area.num2rmb",
+            "projectName": "working_space_9e26c7bb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gobang",
+            "request": "launch",
+            "mainClass": "Gobang"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num2Rmb",
+            "request": "launch",
+            "mainClass": "Num2Rmb"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavadocTest(1)",
+            "request": "launch",
+            "mainClass": "lee.JavadocTest"
+        }
+    ]
+}
