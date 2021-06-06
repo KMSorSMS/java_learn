@@ -3,7 +3,7 @@ public class hello
 {
     public static void main(String[] args)
     {
-        byte a = 56;//byteÊÇ8bit¼´1×Ö½Ú£»2^7-1(127);
+        byte a = 56;//byteæ˜¯8bitå³1å­—èŠ‚ï¼›2^7-1(127);start
         var b = 23;
         char achar = 'a';
         char enterChar = '\r';
