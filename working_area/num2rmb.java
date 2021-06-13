@@ -6,7 +6,7 @@ import java.lang.Math;
 public class num2rmb {
     //the database
     //start
-    private String[] hanArr = { "零", "一", "二", "三", "四", "五", "六", "七", "八", "九" };
+    public String[] hanArr = { "零", "一", "二", "三", "四", "五", "六", "七", "八", "九" };
     private String[] unitArr = { "十", "百", "千" };
 
     /**
@@ -15,7 +15,7 @@ public class num2rmb {
      * @param num 需要被分解的浮点数
      * @return 分解出来的整数和小数部分。第一个数组元素的整数部分，第二个数组元素是小数部分
      */
-    private String[] divide(double num) {
+    public String[] divide(double num) {
         var zheng = (long) num;
         var xiao = Math.round((num - zheng) * 100);
         return new String[] { zheng + "", String.valueOf(xiao) };
@@ -27,7 +27,7 @@ public class num2rmb {
      * @param numStr 需要被转换的四位的数字字符串
      * @return 四位的数字字符串被转换成汉字字符串
      */
-    private String toHanStr(String numStr) {
+    public String toHanStr(String numStr) {
         var result = "";
         var flag = 0;
         //count用于计数，要是4个长度的字符，只有第一个是非0，是特殊情况

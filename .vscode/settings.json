@@ -1,2 +1,10 @@
 {
+    "files.encoding": "utf8",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac -d ..\\destdir -encoding UTF-8 -classpath ..\\destdir $fileName && java -classpath ..\\destdir hw_5.$fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o .\\exe_main\\$fileNameWithoutExt && .\\exe_main\\$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+
 }
