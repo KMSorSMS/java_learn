@@ -1,5 +1,5 @@
 #window:
-apidoc/
+.vscode/settings.json
 *.class
 
 
