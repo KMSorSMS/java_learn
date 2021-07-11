@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ScannerFileTest",
+            "request": "launch",
+            "mainClass": "chapter7.ScannerFileTest",
+            "projectName": "working_space_9e26c7bb"
+        },
+        {
+            "type": "java",
             "name": "Launch Main_1",
             "request": "launch",
             "mainClass": "hw_5.Main_1",
