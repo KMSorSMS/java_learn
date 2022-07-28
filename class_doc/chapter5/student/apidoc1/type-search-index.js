@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"Bird","h":"","u":""},{"l":"ConversionTest","h":"","u":""},{"l":"InstanceofTest","h":"","u":""},{"l":"Ostrich","h":"","u":""},{"l":"Studenthw","h":"","u":""},{"l":"Sub","h":"","u":""},{"l":"Subclass","h":"","u":""},{"l":"Test","h":"","u":""},{"l":"Wolf","h":"","u":""},{"l":"所有类","h":"","u":"allclasses-index.html"}]

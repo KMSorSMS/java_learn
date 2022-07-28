@@ -1,0 +1,6 @@
+{
+    "files.encoding": "utf8",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac -d ..\\..\\src -encoding UTF-8 -classpath ..\\..\\src $fileName && java '-Dfile.encoding=UTF-8' -classpath ..\\..\\src chapter7.$fileNameWithoutExt"},
+    }
